@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from './footer.js';
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
         <h1 className="text-purple-400">Hello YNJ</h1>
 
       </main>
+
+
+      <Footer />
 
 
     </div>
